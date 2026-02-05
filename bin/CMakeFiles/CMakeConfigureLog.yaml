@@ -1,0 +1,2617 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mingw32-make.exe.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mingw32-make.exe"
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mingw32-make.exe.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mingw32-make.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mingw32-make.exe"
+      - "C:/Program Files/Neovim/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Neovim/bin/mingw32-make.exe"
+      - "C:/Program Files/GitHub CLI/mingw32-make.exe.com"
+      - "C:/Program Files/GitHub CLI/mingw32-make.exe"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe.com"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe"
+      - "C:/Program Files/nodejs/mingw32-make.exe.com"
+      - "C:/Program Files/nodejs/mingw32-make.exe"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe.com"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/mingw32-make.exe.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/mingw32-make.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/mingw32-make.exe.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/mingw32-make.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe"
+      - "C:/msys64/ucrt64/bin/mingw32-make.exe.com"
+    found: "C:/msys64/ucrt64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cl.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cl.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cl"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bcc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bcc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bcc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/xlc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/xlc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/xlc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/icx.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/icx.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/icx"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang"
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cl.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cl.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cl"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bcc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bcc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bcc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/xlc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/xlc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/xlc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/icx.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/icx.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/icx"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/clang"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang"
+      - "C:/Program Files/Neovim/bin/cc.com"
+      - "C:/Program Files/Neovim/bin/cc.exe"
+      - "C:/Program Files/Neovim/bin/cc"
+      - "C:/Program Files/Neovim/bin/gcc.com"
+      - "C:/Program Files/Neovim/bin/gcc.exe"
+      - "C:/Program Files/Neovim/bin/gcc"
+      - "C:/Program Files/Neovim/bin/cl.com"
+      - "C:/Program Files/Neovim/bin/cl.exe"
+      - "C:/Program Files/Neovim/bin/cl"
+      - "C:/Program Files/Neovim/bin/bcc.com"
+      - "C:/Program Files/Neovim/bin/bcc.exe"
+      - "C:/Program Files/Neovim/bin/bcc"
+      - "C:/Program Files/Neovim/bin/xlc.com"
+      - "C:/Program Files/Neovim/bin/xlc.exe"
+      - "C:/Program Files/Neovim/bin/xlc"
+      - "C:/Program Files/Neovim/bin/icx.com"
+      - "C:/Program Files/Neovim/bin/icx.exe"
+      - "C:/Program Files/Neovim/bin/icx"
+      - "C:/Program Files/Neovim/bin/clang.com"
+      - "C:/Program Files/Neovim/bin/clang.exe"
+      - "C:/Program Files/Neovim/bin/clang"
+      - "C:/Program Files/GitHub CLI/cc.com"
+      - "C:/Program Files/GitHub CLI/cc.exe"
+      - "C:/Program Files/GitHub CLI/cc"
+      - "C:/Program Files/GitHub CLI/gcc.com"
+      - "C:/Program Files/GitHub CLI/gcc.exe"
+      - "C:/Program Files/GitHub CLI/gcc"
+      - "C:/Program Files/GitHub CLI/cl.com"
+      - "C:/Program Files/GitHub CLI/cl.exe"
+      - "C:/Program Files/GitHub CLI/cl"
+      - "C:/Program Files/GitHub CLI/bcc.com"
+      - "C:/Program Files/GitHub CLI/bcc.exe"
+      - "C:/Program Files/GitHub CLI/bcc"
+      - "C:/Program Files/GitHub CLI/xlc.com"
+      - "C:/Program Files/GitHub CLI/xlc.exe"
+      - "C:/Program Files/GitHub CLI/xlc"
+      - "C:/Program Files/GitHub CLI/icx.com"
+      - "C:/Program Files/GitHub CLI/icx.exe"
+      - "C:/Program Files/GitHub CLI/icx"
+      - "C:/Program Files/GitHub CLI/clang.com"
+      - "C:/Program Files/GitHub CLI/clang.exe"
+      - "C:/Program Files/GitHub CLI/clang"
+      - "C:/Program Files/Git/cmd/cc.com"
+      - "C:/Program Files/Git/cmd/cc.exe"
+      - "C:/Program Files/Git/cmd/cc"
+      - "C:/Program Files/Git/cmd/gcc.com"
+      - "C:/Program Files/Git/cmd/gcc.exe"
+      - "C:/Program Files/Git/cmd/gcc"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/xlc.com"
+      - "C:/Program Files/Git/cmd/xlc.exe"
+      - "C:/Program Files/Git/cmd/xlc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang.com"
+      - "C:/Program Files/Git/cmd/clang.exe"
+      - "C:/Program Files/Git/cmd/clang"
+      - "C:/Program Files/nodejs/cc.com"
+      - "C:/Program Files/nodejs/cc.exe"
+      - "C:/Program Files/nodejs/cc"
+      - "C:/Program Files/nodejs/gcc.com"
+      - "C:/Program Files/nodejs/gcc.exe"
+      - "C:/Program Files/nodejs/gcc"
+      - "C:/Program Files/nodejs/cl.com"
+      - "C:/Program Files/nodejs/cl.exe"
+      - "C:/Program Files/nodejs/cl"
+      - "C:/Program Files/nodejs/bcc.com"
+      - "C:/Program Files/nodejs/bcc.exe"
+      - "C:/Program Files/nodejs/bcc"
+      - "C:/Program Files/nodejs/xlc.com"
+      - "C:/Program Files/nodejs/xlc.exe"
+      - "C:/Program Files/nodejs/xlc"
+      - "C:/Program Files/nodejs/icx.com"
+      - "C:/Program Files/nodejs/icx.exe"
+      - "C:/Program Files/nodejs/icx"
+      - "C:/Program Files/nodejs/clang.com"
+      - "C:/Program Files/nodejs/clang.exe"
+      - "C:/Program Files/nodejs/clang"
+      - "C:/Program Files/CMake/bin/cc.com"
+      - "C:/Program Files/CMake/bin/cc.exe"
+      - "C:/Program Files/CMake/bin/cc"
+      - "C:/Program Files/CMake/bin/gcc.com"
+      - "C:/Program Files/CMake/bin/gcc.exe"
+      - "C:/Program Files/CMake/bin/gcc"
+      - "C:/Program Files/CMake/bin/cl.com"
+      - "C:/Program Files/CMake/bin/cl.exe"
+      - "C:/Program Files/CMake/bin/cl"
+      - "C:/Program Files/CMake/bin/bcc.com"
+      - "C:/Program Files/CMake/bin/bcc.exe"
+      - "C:/Program Files/CMake/bin/bcc"
+      - "C:/Program Files/CMake/bin/xlc.com"
+      - "C:/Program Files/CMake/bin/xlc.exe"
+      - "C:/Program Files/CMake/bin/xlc"
+      - "C:/Program Files/CMake/bin/icx.com"
+      - "C:/Program Files/CMake/bin/icx.exe"
+      - "C:/Program Files/CMake/bin/icx"
+      - "C:/Program Files/CMake/bin/clang.com"
+      - "C:/Program Files/CMake/bin/clang.exe"
+      - "C:/Program Files/CMake/bin/clang"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/cc.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/cc.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/cc"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/cl.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/cl.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/cl"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/bcc.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/bcc.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/bcc"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/xlc.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/xlc.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/xlc"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/icx.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/icx.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/icx"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/clang.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/clang.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/clang"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/cc.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/cc.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/cc"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/cl.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/cl.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/cl"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/bcc.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/bcc.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/bcc"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/xlc.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/xlc.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/xlc"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/icx.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/icx.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/icx"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/clang.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/clang.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/clang"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/cc.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/cc.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/cc"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/bcc.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/bcc.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/bcc"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/xlc.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/xlc.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/xlc"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/icx.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/icx.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/icx"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/clang.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/clang.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/clang"
+      - "C:/msys64/ucrt64/bin/cc.com"
+    found: "C:/msys64/ucrt64/bin/cc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/4.2.3/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ar.com"
+    found: "C:/msys64/ucrt64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ranlib.com"
+    found: "C:/msys64/ucrt64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/strip.com"
+    found: "C:/msys64/ucrt64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ld.com"
+    found: "C:/msys64/ucrt64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/nm.com"
+    found: "C:/msys64/ucrt64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objdump.com"
+    found: "C:/msys64/ucrt64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objcopy.com"
+    found: "C:/msys64/ucrt64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/readelf.com"
+    found: "C:/msys64/ucrt64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/dlltool.com"
+    found: "C:/msys64/ucrt64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/addr2line.com"
+    found: "C:/msys64/ucrt64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Program Files/Neovim/bin/tapi.com"
+      - "C:/Program Files/Neovim/bin/tapi.exe"
+      - "C:/Program Files/Neovim/bin/tapi"
+      - "C:/Program Files/GitHub CLI/tapi.com"
+      - "C:/Program Files/GitHub CLI/tapi.exe"
+      - "C:/Program Files/GitHub CLI/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/tapi.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/tapi.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/tapi"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/tapi.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/tapi.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/tapi"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/tapi"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/tapi.com"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/tapi.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.1"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.1.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.1.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.1"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-15.1.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-15.1.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-15.1"
+      - "C:/Windows/System32/gcc-ar-15.1.com"
+      - "C:/Windows/System32/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/gcc-ar-15.1"
+      - "C:/Windows/gcc-ar-15.1.com"
+      - "C:/Windows/gcc-ar-15.1.exe"
+      - "C:/Windows/gcc-ar-15.1"
+      - "C:/Windows/System32/wbem/gcc-ar-15.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.1"
+      - "C:/Program Files/Neovim/bin/gcc-ar-15.1.com"
+      - "C:/Program Files/Neovim/bin/gcc-ar-15.1.exe"
+      - "C:/Program Files/Neovim/bin/gcc-ar-15.1"
+      - "C:/Program Files/GitHub CLI/gcc-ar-15.1.com"
+      - "C:/Program Files/GitHub CLI/gcc-ar-15.1.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ar-15.1"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.1"
+      - "C:/Program Files/nodejs/gcc-ar-15.1.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.1.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15.1"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.1.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.1.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.1"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ar-15.1.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ar-15.1.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ar-15.1"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ar-15.1.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ar-15.1.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ar-15.1"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.1.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.1.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.1"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ar-15.1.com"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ar-15.1.exe"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ar-15.1"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ar-15.1.com"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ar-15.1.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ar-15.1"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-15.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-15.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15"
+      - "C:/Program Files/Neovim/bin/gcc-ar-15.com"
+      - "C:/Program Files/Neovim/bin/gcc-ar-15.exe"
+      - "C:/Program Files/Neovim/bin/gcc-ar-15"
+      - "C:/Program Files/GitHub CLI/gcc-ar-15.com"
+      - "C:/Program Files/GitHub CLI/gcc-ar-15.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ar-15"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15"
+      - "C:/Program Files/nodejs/gcc-ar-15.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ar-15.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ar-15.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ar-15"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ar-15.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ar-15.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ar-15"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ar-15.com"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ar-15.exe"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ar-15"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ar-15.com"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ar-15.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ar-15"
+      - "C:/msys64/ucrt64/bin/gcc-ar15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar15"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar15.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar15.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar15.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar15.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar15"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar15.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar15.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar15"
+      - "C:/Program Files/Neovim/bin/gcc-ar15.com"
+      - "C:/Program Files/Neovim/bin/gcc-ar15.exe"
+      - "C:/Program Files/Neovim/bin/gcc-ar15"
+      - "C:/Program Files/GitHub CLI/gcc-ar15.com"
+      - "C:/Program Files/GitHub CLI/gcc-ar15.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ar15"
+      - "C:/Program Files/Git/cmd/gcc-ar15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar15"
+      - "C:/Program Files/nodejs/gcc-ar15.com"
+      - "C:/Program Files/nodejs/gcc-ar15.exe"
+      - "C:/Program Files/nodejs/gcc-ar15"
+      - "C:/Program Files/CMake/bin/gcc-ar15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar15"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ar15.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ar15.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ar15"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ar15.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ar15.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ar15"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ar15.com"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ar15.exe"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ar15"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ar15.com"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ar15.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ar15"
+      - "C:/msys64/ucrt64/bin/gcc-ar.com"
+    found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.1"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.1.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.1.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.1"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-15.1.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-15.1.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-15.1"
+      - "C:/Windows/System32/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.1"
+      - "C:/Windows/gcc-ranlib-15.1.com"
+      - "C:/Windows/gcc-ranlib-15.1.exe"
+      - "C:/Windows/gcc-ranlib-15.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.1"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.1.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.1.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.1"
+      - "C:/Program Files/Neovim/bin/gcc-ranlib-15.1.com"
+      - "C:/Program Files/Neovim/bin/gcc-ranlib-15.1.exe"
+      - "C:/Program Files/Neovim/bin/gcc-ranlib-15.1"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-15.1.com"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-15.1.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-15.1"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.1"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.1.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.1.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.1"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.1.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.1.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.1"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ranlib-15.1.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ranlib-15.1.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ranlib-15.1"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ranlib-15.1.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ranlib-15.1.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ranlib-15.1"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.1.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.1.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.1"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ranlib-15.1.com"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ranlib-15.1.exe"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ranlib-15.1"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ranlib-15.1.com"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ranlib-15.1.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ranlib-15.1"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-15.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-15.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15"
+      - "C:/Program Files/Neovim/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/Neovim/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/Neovim/bin/gcc-ranlib-15"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-15.com"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-15.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib-15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ranlib-15.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ranlib-15.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ranlib-15"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ranlib-15.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ranlib-15.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ranlib-15"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ranlib-15.com"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ranlib-15.exe"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ranlib-15"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ranlib-15.com"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ranlib-15.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ranlib-15"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib15"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib15.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib15.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib15.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib15.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib15"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib15"
+      - "C:/Program Files/Neovim/bin/gcc-ranlib15.com"
+      - "C:/Program Files/Neovim/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/Neovim/bin/gcc-ranlib15"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib15.com"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib15.exe"
+      - "C:/Program Files/GitHub CLI/gcc-ranlib15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15"
+      - "C:/Program Files/nodejs/gcc-ranlib15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ranlib15.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ranlib15.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/gcc-ranlib15"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ranlib15.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ranlib15.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/gcc-ranlib15"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ranlib15.com"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ranlib15.exe"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/gcc-ranlib15"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ranlib15.com"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ranlib15.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/gcc-ranlib15"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
+    found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Neovim/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/ponalaptop/AppData/Roaming/npm/"
+      - "C:/Users/ponalaptop/AppData/Local/Python/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/freeglut/bin/"
+      - "C:/Program Files (x86)/freeglut/sbin/"
+      - "C:/Program Files (x86)/freeglut/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/windres.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/windres.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/windres.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/windres.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/windres"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres"
+      - "C:/Program Files/Neovim/bin/windres.com"
+      - "C:/Program Files/Neovim/bin/windres.exe"
+      - "C:/Program Files/Neovim/bin/windres"
+      - "C:/Program Files/GitHub CLI/windres.com"
+      - "C:/Program Files/GitHub CLI/windres.exe"
+      - "C:/Program Files/GitHub CLI/windres"
+      - "C:/Program Files/Git/cmd/windres.com"
+      - "C:/Program Files/Git/cmd/windres.exe"
+      - "C:/Program Files/Git/cmd/windres"
+      - "C:/Program Files/nodejs/windres.com"
+      - "C:/Program Files/nodejs/windres.exe"
+      - "C:/Program Files/nodejs/windres"
+      - "C:/Program Files/CMake/bin/windres.com"
+      - "C:/Program Files/CMake/bin/windres.exe"
+      - "C:/Program Files/CMake/bin/windres"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/windres.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/windres.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/bin/windres"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/windres.com"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/windres.exe"
+      - "C:/Users/ponalaptop/.pyenv/pyenv-win/shims/windres"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/windres.com"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/windres.exe"
+      - "C:/Users/ponalaptop/AppData/Local/Microsoft/WindowsApps/windres"
+      - "C:/msys64/ucrt64/bin/windres.com"
+    found: "C:/msys64/ucrt64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Neovim\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\ponalaptop\\.pyenv\\pyenv-win\\shims"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ponalaptop\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ponalaptop\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/freeglut"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/freeglut"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-fndtfe"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-fndtfe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-fndtfe'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_cfab5/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cfab5.dir\\build.make CMakeFiles/cmTC_cfab5.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-fndtfe'
+        Building C object CMakeFiles/cmTC_cfab5.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_cfab5.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_cfab5.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\PONALA~1\\AppData\\Local\\Temp\\cc9koPVb.s
+        GNU C23 (Rev5, Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"
+        ignoring nonexistent directory "C:/a/msys64/ucrt64/include"
+        ignoring nonexistent directory "/ucrt64/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/a/msys64/ucrt64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed
+        End of search list.
+        Compiler executable checksum: 7e781975810fbc1e7c1fa8a722eca255
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_cfab5.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj C:\\Users\\PONALA~1\\AppData\\Local\\Temp\\cc9koPVb.s
+        GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_cfab5.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_cfab5.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
+        COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cfab5.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_cfab5.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\PONALA~1\\AppData\\Local\\Temp\\cccs8Tne.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_cfab5.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_cfab5.dir/objects.a --no-whole-archive --out-implib libcmTC_cfab5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        collect2 version 15.1.0
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\PONALA~1\\AppData\\Local\\Temp\\cccs8Tne.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_cfab5.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_cfab5.dir/objects.a --no-whole-archive --out-implib libcmTC_cfab5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cfab5.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_cfab5.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_cfab5.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_cfab5.dir/objects.a @CMakeFiles\\cmTC_cfab5.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_cfab5.dir/objects.a -Wl,--no-whole-archive -o cmTC_cfab5.exe -Wl,--out-implib,libcmTC_cfab5.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-fndtfe'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        end of search list found
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include] ==> [C:/msys64/ucrt64/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        implicit include dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include;C:/msys64/ucrt64/include;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-fndtfe']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_cfab5/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cfab5.dir\\build.make CMakeFiles/cmTC_cfab5.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-fndtfe']
+        ignore line: [Building C object CMakeFiles/cmTC_cfab5.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_cfab5.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_cfab5.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\PONALA~1\\AppData\\Local\\Temp\\cc9koPVb.s]
+        ignore line: [GNU C23 (Rev5  Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/ucrt64/include"]
+        ignore line: [ignoring nonexistent directory "/ucrt64/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/ucrt64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 7e781975810fbc1e7c1fa8a722eca255]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_cfab5.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj C:\\Users\\PONALA~1\\AppData\\Local\\Temp\\cc9koPVb.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_cfab5.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_cfab5.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_cfab5.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cfab5.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_cfab5.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\PONALA~1\\AppData\\Local\\Temp\\cccs8Tne.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_cfab5.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_cfab5.dir/objects.a --no-whole-archive --out-implib libcmTC_cfab5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\PONALA~1\\AppData\\Local\\Temp\\cccs8Tne.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_cfab5.exe] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_cfab5.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_cfab5.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        ignore line: [collect2 version 15.1.0]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\PONALA~1\\AppData\\Local\\Temp\\cccs8Tne.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_cfab5.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_cfab5.dir/objects.a --no-whole-archive --out-implib libcmTC_cfab5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> [C:/msys64/ucrt64/lib/crt2.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> [C:/msys64/ucrt64/lib/default-manifest.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc] ==> [C:/msys64/ucrt64/lib/gcc]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> [C:/msys64/ucrt64/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> [C:/msys64/ucrt64/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [C:/msys64/ucrt64/lib/crt2.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o;C:/msys64/ucrt64/lib/default-manifest.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        implicit dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0;C:/msys64/ucrt64/lib/gcc;C:/msys64/ucrt64/x86_64-w64-mingw32/lib;C:/msys64/ucrt64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Running the C compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:529 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-ezy9z8"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-ezy9z8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-ezy9z8'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_65b80/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_65b80.dir\\build.make CMakeFiles/cmTC_65b80.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-ezy9z8'
+        Building C object CMakeFiles/cmTC_65b80.dir/HAVE_SYS_TYPES_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_65b80.dir\\HAVE_SYS_TYPES_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-ezy9z8\\HAVE_SYS_TYPES_H.c
+        Linking C executable cmTC_65b80.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_65b80.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_65b80.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_65b80.dir/objects.a @CMakeFiles\\cmTC_65b80.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_65b80.dir/objects.a -Wl,--no-whole-archive -o cmTC_65b80.exe -Wl,--out-implib,libcmTC_65b80.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_65b80.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-ezy9z8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:530 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-86by4j"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-86by4j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-86by4j'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_dd34d/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dd34d.dir\\build.make CMakeFiles/cmTC_dd34d.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-86by4j'
+        Building C object CMakeFiles/cmTC_dd34d.dir/HAVE_UNISTD_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_dd34d.dir\\HAVE_UNISTD_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-86by4j\\HAVE_UNISTD_H.c
+        Linking C executable cmTC_dd34d.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_dd34d.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_dd34d.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_dd34d.dir/objects.a @CMakeFiles\\cmTC_dd34d.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_dd34d.dir/objects.a -Wl,--no-whole-archive -o cmTC_dd34d.exe -Wl,--out-implib,libcmTC_dd34d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_dd34d.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-86by4j'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:531 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-4kti2m"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-4kti2m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-4kti2m'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_6f3d8/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6f3d8.dir\\build.make CMakeFiles/cmTC_6f3d8.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-4kti2m'
+        Building C object CMakeFiles/cmTC_6f3d8.dir/HAVE_SYS_TIME_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_6f3d8.dir\\HAVE_SYS_TIME_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-4kti2m\\HAVE_SYS_TIME_H.c
+        Linking C executable cmTC_6f3d8.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6f3d8.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6f3d8.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_6f3d8.dir/objects.a @CMakeFiles\\cmTC_6f3d8.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_6f3d8.dir/objects.a -Wl,--no-whole-archive -o cmTC_6f3d8.exe -Wl,--out-implib,libcmTC_6f3d8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6f3d8.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-4kti2m'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:532 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-hkzwr9"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-hkzwr9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-hkzwr9'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_2777e/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2777e.dir\\build.make CMakeFiles/cmTC_2777e.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-hkzwr9'
+        Building C object CMakeFiles/cmTC_2777e.dir/HAVE_STDBOOL_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_2777e.dir\\HAVE_STDBOOL_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-hkzwr9\\HAVE_STDBOOL_H.c
+        Linking C executable cmTC_2777e.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2777e.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2777e.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_2777e.dir/objects.a @CMakeFiles\\cmTC_2777e.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_2777e.dir/objects.a -Wl,--no-whole-archive -o cmTC_2777e.exe -Wl,--out-implib,libcmTC_2777e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2777e.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-hkzwr9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:533 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-3f0tsp"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-3f0tsp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-3f0tsp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_62db1/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_62db1.dir\\build.make CMakeFiles/cmTC_62db1.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-3f0tsp'
+        Building C object CMakeFiles/cmTC_62db1.dir/HAVE_SYS_PARAM_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_62db1.dir\\HAVE_SYS_PARAM_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-3f0tsp\\HAVE_SYS_PARAM_H.c
+        Linking C executable cmTC_62db1.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_62db1.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_62db1.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_62db1.dir/objects.a @CMakeFiles\\cmTC_62db1.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_62db1.dir/objects.a -Wl,--no-whole-archive -o cmTC_62db1.exe -Wl,--out-implib,libcmTC_62db1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_62db1.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-3f0tsp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:534 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-anbol2"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-anbol2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-anbol2'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_39684/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_39684.dir\\build.make CMakeFiles/cmTC_39684.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-anbol2'
+        Building C object CMakeFiles/cmTC_39684.dir/HAVE_SYS_IOCTL_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_39684.dir\\HAVE_SYS_IOCTL_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-anbol2\\HAVE_SYS_IOCTL_H.c
+        D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-anbol2\\HAVE_SYS_IOCTL_H.c:2:10: fatal error: sys/ioctl.h: No such file or directory
+            2 | #include <sys/ioctl.h>
+              |          ^~~~~~~~~~~~~
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_39684.dir\\build.make:80: CMakeFiles/cmTC_39684.dir/HAVE_SYS_IOCTL_H.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-anbol2'
+        mingw32-make: *** [Makefile:133: cmTC_39684/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:535 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u168hw"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u168hw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u168hw'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_78527/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_78527.dir\\build.make CMakeFiles/cmTC_78527.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u168hw'
+        Building C object CMakeFiles/cmTC_78527.dir/HAVE_FCNTL_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_78527.dir\\HAVE_FCNTL_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-u168hw\\HAVE_FCNTL_H.c
+        Linking C executable cmTC_78527.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_78527.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_78527.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_78527.dir/objects.a @CMakeFiles\\cmTC_78527.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_78527.dir/objects.a -Wl,--no-whole-archive -o cmTC_78527.exe -Wl,--out-implib,libcmTC_78527.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_78527.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u168hw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:536 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-brjcuf"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-brjcuf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-brjcuf'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d42ac/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d42ac.dir\\build.make CMakeFiles/cmTC_d42ac.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-brjcuf'
+        Building C object CMakeFiles/cmTC_d42ac.dir/HAVE_USBHID_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_d42ac.dir\\HAVE_USBHID_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-brjcuf\\HAVE_USBHID_H.c
+        D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-brjcuf\\HAVE_USBHID_H.c:2:10: fatal error: usbhid.h: No such file or directory
+            2 | #include <usbhid.h>
+              |          ^~~~~~~~~~
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_d42ac.dir\\build.make:80: CMakeFiles/cmTC_d42ac.dir/HAVE_USBHID_H.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-brjcuf'
+        mingw32-make: *** [Makefile:133: cmTC_d42ac/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckFunctionExists.cmake:167 (try_compile)"
+      - "CMakeLists.txt:537 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u38m15"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u38m15"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u38m15'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ea4a0/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ea4a0.dir\\build.make CMakeFiles/cmTC_ea4a0.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u38m15'
+        Building C object CMakeFiles/cmTC_ea4a0.dir/CheckFunctionExists.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles\\cmTC_ea4a0.dir\\CheckFunctionExists.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-u38m15\\CheckFunctionExists.c
+        Linking C executable cmTC_ea4a0.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ea4a0.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ea4a0.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_ea4a0.dir/objects.a @CMakeFiles\\cmTC_ea4a0.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -Wl,--whole-archive CMakeFiles\\cmTC_ea4a0.dir/objects.a -Wl,--no-whole-archive -o cmTC_ea4a0.exe -Wl,--out-implib,libcmTC_ea4a0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ea4a0.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-u38m15'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckFunctionExists.cmake:167 (try_compile)"
+      - "CMakeLists.txt:538 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-mzj7br"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-mzj7br"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-mzj7br'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_1b75f/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1b75f.dir\\build.make CMakeFiles/cmTC_1b75f.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-mzj7br'
+        Building C object CMakeFiles/cmTC_1b75f.dir/CheckFunctionExists.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -o CMakeFiles\\cmTC_1b75f.dir\\CheckFunctionExists.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-mzj7br\\CheckFunctionExists.c
+        Linking C executable cmTC_1b75f.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1b75f.dir\\link.txt --verbose=1
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\\cmTC_1b75f.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `XParseGeometry'
+        collect2.exe: error: ld returned 1 exit status
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1b75f.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_1b75f.dir/objects.a @CMakeFiles\\cmTC_1b75f.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -Wl,--whole-archive CMakeFiles\\cmTC_1b75f.dir/objects.a -Wl,--no-whole-archive -o cmTC_1b75f.exe -Wl,--out-implib,libcmTC_1b75f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_1b75f.dir\\linkLibs.rsp
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_1b75f.dir\\build.make:103: cmTC_1b75f.exe] Error 1
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-mzj7br'
+        mingw32-make: *** [Makefile:133: cmTC_1b75f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:546 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-9av5he"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-9av5he"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-9av5he'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_bef28/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bef28.dir\\build.make CMakeFiles/cmTC_bef28.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-9av5he'
+        Building C object CMakeFiles/cmTC_bef28.dir/HAVE_STDINT_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_bef28.dir\\HAVE_STDINT_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-9av5he\\HAVE_STDINT_H.c
+        Linking C executable cmTC_bef28.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_bef28.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_bef28.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_bef28.dir/objects.a @CMakeFiles\\cmTC_bef28.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_bef28.dir/objects.a -Wl,--no-whole-archive -o cmTC_bef28.exe -Wl,--out-implib,libcmTC_bef28.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_bef28.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-9av5he'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:547 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-yd2mpz"
+      binary: "D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-yd2mpz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-yd2mpz'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ea4b8/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ea4b8.dir\\build.make CMakeFiles/cmTC_ea4b8.dir/build
+        mingw32-make[1]: Entering directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-yd2mpz'
+        Building C object CMakeFiles/cmTC_ea4b8.dir/HAVE_INTTYPES_H.c.obj
+        C:\\msys64\\ucrt64\\bin\\cc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_ea4b8.dir\\HAVE_INTTYPES_H.c.obj -c D:\\DH\\HK252\\OpenGL-proj\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-yd2mpz\\HAVE_INTTYPES_H.c
+        Linking C executable cmTC_ea4b8.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ea4b8.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ea4b8.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_ea4b8.dir/objects.a @CMakeFiles\\cmTC_ea4b8.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\cc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_ea4b8.dir/objects.a -Wl,--no-whole-archive -o cmTC_ea4b8.exe -Wl,--out-implib,libcmTC_ea4b8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ea4b8.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/DH/HK252/OpenGL-proj/bin/CMakeFiles/CMakeScratch/TryCompile-yd2mpz'
+        
+      exitCode: 0
+...
