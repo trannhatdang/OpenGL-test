@@ -11,9 +11,7 @@ float colors[3][3] = {
 };
 
 int screenWidth = 500, screenHeight = 500;
-int angle = 0;
-
-int pointsArr[36] = {};
+float angle = 0.0f;
 
 void myInit()
 {
@@ -30,21 +28,27 @@ void myDisplay()
 	///
 	///
 	
+
+	int pointsArr[36] = {};
+	
+	for(int i = 0; i < 36; ++i)
+	{
+		pointsArr[i] = i * 10;
+	}
+	
 	glBegin(GL_POINTS);
-		for(int i = 0; i < 3; ++i)
+		for(int i = 0; i < 36; ++i)
 		{
-			glVertex2f(0.8f * cos(DEG2RAD * pointsArr[(angle + i * 12) % 36]), 0.8f * sin(DEG2RAD * pointsArr[(angle + i * 12) % 36]));
+			glVertex2f(0.8f * cos(DEG2RAD * pointsArr[i]), 0.8f * sin(DEG2RAD * pointsArr[i]));
 		}
 	glEnd();
 	
 	glBegin(GL_TRIANGLES);
-		for(int i = 0; i < 3; ++i)
+		for(int i = 0; i < 36; ++i)
 		{
 			glColor3f(colors[i % 3][0], colors[i % 3][1], colors[i % 3][2]);
-			glVertex2f(0.8f * cos(DEG2RAD * pointsArr[(angle + i * 12) % 36]),
-				0.8f * sin(DEG2RAD * pointsArr[(angle + i * 12) % 36]));
-			glVertex2f(0.8f * cos(DEG2RAD * pointsArr[(angle + i * 12 + 1) % 36]),
-					0.8f * sin(DEG2RAD * pointsArr[(angle + i * 12 + 1) % 36]));
+			glVertex2f(0.8f * cos(DEG2RAD * pointsArr[i]), 0.8f * sin(DEG2RAD * pointsArr[i]));
+			glVertex2f(0.8f * cos(DEG2RAD * pointsArr[(i+1) % 36]), 0.8f * sin(DEG2RAD * pointsArr[(i+1) % 36]));
 			glVertex2f(0, 0);
 		}
 	glEnd();
@@ -53,26 +57,9 @@ void myDisplay()
 	glutSwapBuffers();
 }
 
-void processTimer(int val)
-{
-	angle = (angle - val);
-
-	if(angle < 0)
-	{
-		angle = 36 + angle;
-	}
-
-	glutTimerFunc(100, processTimer, 1);
-	glutPostRedisplay();
-}
-
 int main(int argc, char** argv)
 {
-	for(int i = 0; i < 36; ++i)
-	{
-		pointsArr[i] = i * 10;
-	}
-
+	angle = 0.0f;
 	glutInit(&argc, (char**)argv); //initialize the tool kit
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);//set the display mode
 				      //
@@ -82,7 +69,6 @@ int main(int argc, char** argv)
 	glutCreateWindow("Simple"); // open the screen window
 				      //
 	myInit();
-	glutTimerFunc(100, processTimer, 1);
 	glutDisplayFunc(myDisplay);
 
 	glutMainLoop();
