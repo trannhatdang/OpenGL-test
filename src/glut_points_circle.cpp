@@ -46,12 +46,12 @@ int main(int argc, char** argv)
 	angle = 0.0f;
 	glutInit(&argc, (char**)argv); //initialize the tool kit
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);//set the display mode
-				      //
+
 	glutInitWindowSize(screenWidth, screenHeight); //set window size
 	glutInitWindowPosition(200, 100); // set window position on screen
-						  //
+
 	glutCreateWindow("Simple"); // open the screen window
-				      //
+
 	myInit();
 	glutDisplayFunc(myDisplay);
 
