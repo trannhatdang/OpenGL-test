@@ -10,13 +10,8 @@ GLfloat v[3][2] = {
 	{0.0, 1.15}
 };
 
-GLfloat colors[4][3] = {
-	{1.0, 0, 0},
-	{0, 1.0, 0},
-	{0, 0, 1.0}
-};
-
 int n;
+
 typedef GLfloat point2[2];
 
 void triangle(GLfloat *a, GLfloat *b, GLfloat *c)
@@ -24,18 +19,6 @@ void triangle(GLfloat *a, GLfloat *b, GLfloat *c)
 	glVertex2fv(a);
 	glVertex2fv(b);
 	glVertex2fv(c);
-}
-
-void tetra(GLfloat *a, GLfloat*b, GLfloat *c, GLfloat *d)
-{
-	glColor3fv(colors[0]);
-	triangle(b, d, c);
-	glColor3fv(colors[1]);
-	triangle(a, b, c);
-	glColor3fv(colors[2]);
-	triangle(a, c, d);
-	glColor3fv(colors[3]);
-	triangle(a, d, b);
 }
 
 void divide_triangle(GLfloat *a, GLfloat *b, GLfloat *c, int m)
