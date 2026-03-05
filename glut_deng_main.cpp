@@ -2,77 +2,76 @@
 #include <GL/freeglut.h>
 #include <bits/stdc++.h>
 
-const float DEG2RAD = 3.14159f / 180.0f;
+int screenWidth = 500, screenHeight = 500;
 
-float colors[3][3] = {
-	{1, 0, 0},
-	{0, 1, 0},
-	{0, 0, 1}
+typedef struct{
+	float x;
+	float y;
+} Vector2;
+
+GLfloat v[3][2] = {
+	{-1.0, -0.58},
+	{1.0, -0.58},
+	{0.0, 1.15}
 };
 
-int screenWidth = 500, screenHeight = 500;
-int angle = 0;
+int n;
 
-int pointsArr[36] = {};
+typedef GLfloat point2[2];
+
+void triangle(GLfloat *a, GLfloat *b, GLfloat *c)
+{
+	glVertex2fv(a);
+	glVertex2fv(b);
+	glVertex2fv(c);
+}
+
+void divide_triangle(GLfloat *a, GLfloat *b, GLfloat *c, int m)
+{
+	point2 v0, v1, v2;
+	int j;
+
+	if(m > 0)
+	{
+		for(j = 0; j < 2; ++j) v0[j] = (a[j] + b[j])/2;
+		for(j = 0; j < 2; ++j) v0[j] = (a[j] + c[j])/2;
+		for(j = 0; j < 2; ++j) v0[j] = (b[j] + c[j])/2;
+		divide_triangle(a, v0, v1, m-1);
+		divide_triangle(a, v1, v2, m-1);
+		divide_triangle(a, v2, v0, m-1);
+	}
+	else
+	{
+		triangle(a, b, c);
+	}
+
+}
 
 void myInit()
 {
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	gluOrtho2D(-2.0, 2.0, -2.0, 2.0);
+	glMatrixMode(GL_MODELVIEW);
 	glClearColor(0, 0, 0, 1.0f);
+	glColor3f(0.0, 0.0, 0.0);
 }
 
 void myDisplay()
 {
-	glMatrixMode(GL_MODELVIEW);
-	glLoadIdentity();
-
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	////////////////////////////////////////////////////
-	///
-	///
-	
-	glBegin(GL_POINTS);
-		for(int i = 0; i < 3; ++i)
-		{
-			glVertex2f(0.8f * cos(DEG2RAD * pointsArr[(angle + i * 12) % 36]), 0.8f * sin(DEG2RAD * pointsArr[(angle + i * 12) % 36]));
-		}
-	glEnd();
-	
+
 	glBegin(GL_TRIANGLES);
-		for(int i = 0; i < 3; ++i)
-		{
-			glColor3f(colors[i % 3][0], colors[i % 3][1], colors[i % 3][2]);
-			glVertex2f(0.8f * cos(DEG2RAD * pointsArr[(angle + i * 12) % 36]),
-				0.8f * sin(DEG2RAD * pointsArr[(angle + i * 12) % 36]));
-			glVertex2f(0.8f * cos(DEG2RAD * pointsArr[(angle + i * 12 + 1) % 36]),
-					0.8f * sin(DEG2RAD * pointsArr[(angle + i * 12 + 1) % 36]));
-			glVertex2f(0, 0);
-		}
+		divide_triangle(v[0], v[1], v[2], n);
 	glEnd();
 
 	glFlush();
 	glutSwapBuffers();
 }
 
-void processTimer(int val)
-{
-	angle = (angle - val);
-
-	if(angle < 0)
-	{
-		angle = 36 + angle;
-	}
-
-	glutTimerFunc(100, processTimer, 1);
-	glutPostRedisplay();
-}
-
 int main(int argc, char** argv)
 {
-	for(int i = 0; i < 36; ++i)
-	{
-		pointsArr[i] = i * 10;
-	}
-
+	n = 4;
 	glutInit(&argc, (char**)argv); //initialize the tool kit
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);//set the display mode
 				      //
@@ -82,7 +81,6 @@ int main(int argc, char** argv)
 	glutCreateWindow("Simple"); // open the screen window
 				      //
 	myInit();
-	glutTimerFunc(100, processTimer, 1);
 	glutDisplayFunc(myDisplay);
 
 	glutMainLoop();
